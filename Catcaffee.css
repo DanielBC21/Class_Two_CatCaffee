@@ -1,0 +1,89 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0A1045;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 0 1rem 0 1rem;
+}
+
+#title {
+  color: #F6BD60;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1279px) {
+  #navbar{
+    flex-direction: column;
+  }
+
+  ul{
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#aboutus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding-right: 70px;
+}
+
+#abouthead{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+#text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+footer{
+  background-color: aqua;
+}
+#footer-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding-right: 70px;
+}
+
+
+#imgfot{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20px;
+}
+#email{
+  padding-left: 30px;
+  font-size: 25px;
+  
+}
+@media only screen and (max-width: 480px){
+  #footer-sec{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
